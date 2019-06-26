@@ -885,7 +885,7 @@ $.fn.cycle = function( options ) {
 
             if ( opts === undefined ) {
                 c2.log('slideshow must be initialized before sending commands; "' + cmd + '" ignored');
-                return;
+
             }
             else {
                 cmd = cmd == 'goto' ? 'jump' : cmd; // issue #3; change 'goto' to 'jump' internally
